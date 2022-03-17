@@ -107,8 +107,22 @@ public static void main(String[] args) {
 	obj.getSalary2();
 	obj.getName2();
 	obj.getInfo2();
+	
+	
+//3/6/2022
+
+//swap numbers using third variable
+
+	int a =20;
+	int x =30;
+	int temp; // this is third value
+	
+	
+	
 }
 }
+
+
 
 
 
