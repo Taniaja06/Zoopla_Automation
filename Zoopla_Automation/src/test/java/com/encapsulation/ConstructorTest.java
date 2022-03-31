@@ -15,9 +15,9 @@ public class ConstructorTest {
 	
 //	public ConstructorTest() {
 		
-	}
 	
-//public ConstructorTest(int age) {
+	
+public ConstructorTest(int age) {
 	System.out.println(age);
 		
 	}
@@ -26,4 +26,4 @@ public class ConstructorTest {
 		ConstructorTest obj = new ConstructorTest(4);
 				}
 
-}
+

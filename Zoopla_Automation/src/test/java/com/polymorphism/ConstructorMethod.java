@@ -18,9 +18,9 @@ public class ConstructorMethod {
 		
 //		public ConstructorTest() {
 			
-		}
-}
-}
+		
+
+
 	//public ConstructorTest(int age) {
 //		System.out.println(age);
 			
@@ -28,7 +28,7 @@ public class ConstructorMethod {
 		//public static void main(String[] args) {
 	//		ConstructorTest obj = new ConstructorTest(4);
 					
-			}
+			
 //_________________________________________
 	
 

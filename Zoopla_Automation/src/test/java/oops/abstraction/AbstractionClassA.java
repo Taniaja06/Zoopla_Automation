@@ -7,7 +7,7 @@ public abstract class AbstractionClassA {
 	//1. abstract class- it can contain 0-100% abstract method
 	// or concrete and abstract method. if inside the class one abstract method is present class automatically will be abstract class
 	//abstract class finish with 2nd class/subclass or another class
-	// abstract calss can inherit by using extends key word
+	// abstract class can inherit by using extends key word
 	
 	//	2. interface- interface can only contain abstract method or 100% abstract method
 	// interface do not need abstract keyword in the class
@@ -18,14 +18,14 @@ public abstract class AbstractionClassA {
 public abstract void getSalary();
 
 
-//(Complete-concrete) method
+//(concrete) method
 public void geetInfo() {
 	System.out.println("Complete Method");
 	
 }
 
 public static void main(String[] args) {
-	AbstractionClassA obj = new AbstractionClassA();
+	//AbstractionClassA obj = new AbstractionClassA();
 	//cannot create object with in the class *use subclass
 	
 }

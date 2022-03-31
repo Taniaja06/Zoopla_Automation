@@ -4,8 +4,7 @@ public class StaticMethod {
 	static int salary;
 	static 
 	//static method cannot handle non static variable
-	public static void getEmployees() {
-		
+	public void getEmployees() {
 		
 		
 		
