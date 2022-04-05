@@ -1,9 +1,11 @@
 package com.collections;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
-public class ArrayList {
+public class List_Interface {
 
 	public static void main(String[] args) {
 /*What is the collection in JAVA?
@@ -32,7 +34,7 @@ public class ArrayList {
 				-List is Non-sychonized - Faster 
 				************Sychonize maintain the order(slower performence)*******************
 				***********Non-Sychonize can do multiple task together(methods/test cases)**********
-				-List implements many classes
+				-List implements many classes, Arraylist, linkedList, vector
 					1. ArrayList
 						a. ArrayList is dynamic
 						b. ArrayList use the size() method
@@ -44,54 +46,74 @@ public class ArrayList {
 					so if add any value then the size will be increase 50%. */
 		
 	//2way	
-java.util.ArrayList<String> name = new java.util.ArrayList<String>();
+java.util.ArrayList name = new java.util.ArrayList();
 //add method
 	name.add("tania");
 	name.add("jahan");
 	name.add("sumi-aya ");
-//	System.out.println(name);
+	System.out.println(name);
 	
-	//3rd way
-//List interface
-	
-List<Integer> num = new ArrayList<Integer>();
-	
-	//4th way
+//	//3rd way
+//List interface to Arraylist class
+List<Integer> num = new java.util.ArrayList<Integer>();
+	num.add(20);
+	num.add(10);
+	num.add(20);
+	num.add(null);
+	System.out.println(num);
+
+
+//	
+//	//4th way
 List<Integer> id = Arrays.asList(2,3,4,5);
 System.out.println(id);
 
+//Linked list 
+LinkedList<String> terms  = new LinkedList<>();
+terms.add("Spring");
+terms.add("fall");
+terms.add("winter");
+terms.add(null);
+System.out.println(terms);
 
 
-//---------------
-//Basic loop; Loop through an ArrayList, i++ increases value 
-	for (int i = 0; i < name.size(); i++) {
-		System.out.println(name.get(i));
-	}
-//for loop- when you know exactly how many times you want to loop through a block of code 
-// require 3 statements
-	for (int i = 0; i <10; i= i+2) { // this will give you even values between 0-10
-		System.out.println(i);
-	}
-	
-//e.g use for-[p--loop to print "yes" 5 times
-	for (int i = 0; i < 5; i++) {
-		System.out.println("Yes");
-	}
-//--------------
-	
-//For-each loop or advanced loop-- to loop through an array
-//for (data type variableName : arrayName){
-	
- int num [] = {10, 20, 30, 40, 50};
-	for(int numbers : num ) {
-		System.out.println(Arrays.asList(num));
-	}
-	
-String [] names = {"tania, sumiaya, ishrat, shikha"};
-for(String i : names) {
-	System.out.println(i);
+//vector 
+Vector<Integer> vect = new Vector<>();
+vect.add(null);
+
+
+
+
+////---------------
+////Basic loop; Loop through an ArrayList, i++ increases value 
+//	for (int i = 0; i < name.size(); i++) {
+//		//System.out.println(name.get(i));
+//	}
+////for loop- when you know exactly how many times you want to loop through a block of code 
+//// require 3 statements
+//	for (int i = 0; i <10; i= i+2) { // this will give you even values between 0-10
+//		//System.out.println(i);
+//	}
+//	
+////e.g use for-[p--loop to print "yes" 5 times
+//	for (int i = 0; i < 5; i++) {
+//		//System.out.println("Yes");
+//	}
+////--------------
+//	
+////For-each loop or advanced loop-- to loop through an array
+////for (data type variableName : arrayName){
+//	
+// int nums [] = {10, 20, 30, 40, 50};
+//	for(int numbers : nums ) {
+//		System.out.println(Arrays.asList(nums));
+//	}
+//	
+////String [] names = {"tania, sumiaya, ishrat, shikha"};
+////for(String i : names) {
+//	//System.out.println(i);
 	
 }
 	}
 
-}
+
